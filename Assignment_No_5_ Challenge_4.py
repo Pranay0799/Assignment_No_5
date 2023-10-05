@@ -13,10 +13,16 @@ class SavingsAccount(Account):
         super().__init__(title, Balance)
         self.interestRate = interestRate
 
-b =SavingsAccount("Ashish", 5000, 5)
-print("Title : ",b.title)
-print("Balance : ",b.Balance)
-print("InterestRate : ", b.interestRate)
+a1 =Account("Ashish", 5000)
+print("Title : ",a1.title)
+print("Balance : ",a1.Balance)
+
+print()
+
+b1=SavingsAccount("Ashish", 5000, 5)
+print("Title : ",b1.title)
+print("Balance : ",b1.Balance)
+print("InterestRate : ", b1.interestRate)
 
 
 
